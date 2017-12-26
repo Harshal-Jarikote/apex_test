@@ -1,0 +1,9 @@
+{
+  "name": "TEST_APEX",
+  "nameTemplate": "{{.Function.Name}}",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::123456278901:role/TEST_APEX_lambda_function",
+  "environment": {"ENV":"prod"}
+}
