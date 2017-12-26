@@ -1,9 +1,9 @@
 {
-  "name": "TEST_APEX",
+  "name": "apex_test",
+  "description": "testing the apex deployment ",
   "nameTemplate": "{{.Function.Name}}",
-  "description": "",
   "memory": 128,
   "timeout": 5,
-  "role": "arn:aws:iam::123456278901:role/TEST_APEX_lambda_function",
+  "role": "arn:aws:iam::123456278901:role/apex_test_lambda_function",
   "environment": {"ENV":"stage"}
 }
