@@ -22,6 +22,6 @@ def handle(event, context):
     logger.info("%s", raw)
     result = raw.json()
 
-    logger.info("Lambda IP: %s", result['ip'])
+    logger.info("DEV-Lambda IP: %s", result['ip'])
 
     return event
