@@ -1,4 +1,4 @@
 print "start simple function"
 def handle(event, context):
-    print "processing event"
+    print "processing event FROM STAGE"
     return event
